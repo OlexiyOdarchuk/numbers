@@ -1,0 +1,44 @@
+img{
+    width: 300px;
+    height: 220px;
+    display: none;
+    margin: 0 auto;    
+}
+body{
+    background-image: url(/img/BG.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 24px;
+}
+.wrapper{
+    background: #eee;
+    width: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+}
+input{
+    text-align: center;
+    font-size: 24px;
+    background: #0f0;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all .1s ease-in-out;
+}
+[type="button"]:active{
+ background: red;
+}
+p{
+    text-align: center;
+}
+#lose{
+    position: absolute;
+    top: 54%;
+    left: 40%;
+}
+#win{
+    position: absolute;
+    top: 59%;
+    left: 40%;
+}
