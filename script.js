@@ -11,12 +11,8 @@ var n = parseInt(input.value,10);
 if(x==n){ result.innerText = "Ви перемогли!" ;
 winimg.style.display = "block"
 lose.style.display = "none"
-if(button.value=="Спроба №1"){ button.value="З першої спроби)"   
-}
-if(button.value=="Спроба №2"){ button.value="З другої спроби)"   
-}
-if(button.value=="Спроба №3"){ button.value="З третьої спроби)"   
-}
+input.style.display = "none"
+button.value="Щоб зіграти ще, натисніть F5"
 }
 if(x!=n && button.value=="Спроба №1" || button.value=="Спроба №2" || button.value=="Спроба №3"){ result.innerText = "Спробуй ще)" ;
 input.value=""
